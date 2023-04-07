@@ -1,0 +1,71 @@
+/* make variables */
+:root {
+  --myBlack: #252a34;
+  --lightgray: #d9d9d9;
+  --gray: #9c9c9c;
+  --lightBlue: #00235b;
+  --lila: #00235b;
+  --caloryCard: #656565;
+  --planCard: linear-gradient(
+    210.41deg,
+    var(--lightBlue) 1.14%,
+    var(--appColor) 100.75%
+  );
+  --appColor: #ea5455;
+}
+
+.App {
+  mix-blend-mode: overlay;
+  background-color: var(--appColor);
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.stroke-text {
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--myBlack);
+}
+
+.btn {
+  background-color: var(--lightBlue);
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 4px solid transparent;
+  transition: 300ms all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.blur {
+  background: white;
+  position: absolute;
+  border-radius: 75%;
+  filter: blur(150px);
+  z-index: -9;
+}
+
+.blur-logo {
+  background: white;
+  position: relative;
+  border-radius: 100%;
+  filter: blur(0.1px);
+  z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    text-align: center;
+  }
+}
