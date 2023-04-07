@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --myBlack: #252a34;
   --lightgray: #d9d9d9;
   --gray: #9c9c9c;
@@ -11,9 +11,9 @@
     var(--appColor) 100.75%
   );
   --appColor: #ea5455;
-} */
+}
 
-.App {
+/* .App {
   mix-blend-mode: overlay;
   background-color: var(--appColor);
   display: flex;
@@ -67,4 +67,4 @@
   * {
     text-align: center;
   }
-}
+} */
