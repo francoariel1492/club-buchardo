@@ -13,7 +13,7 @@
   --appColor: #ea5455;
 }
 
-/* .App {
+.App {
   mix-blend-mode: overlay;
   background-color: var(--appColor);
   display: flex;
@@ -21,7 +21,7 @@
   gap: 6rem;
   overflow: hidden;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
 }
 
