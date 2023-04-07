@@ -9,7 +9,7 @@ export const programsData = [
     heading: "Escuela Inicial",
     subHeading: "A partir de 5 años",
     details:
-      "Nunca es tarde para comenzar con esta disciplina, cualquiera sea la edad. En este grupo enseñamos y consolidamos las bases del deporte para el desarrollo óptimo de la actividad y potenciar sus capacidades físicas y acá.",
+      "Nunca es tarde para comenzar con esta disciplina, cualquiera sea la edad. En este grupo enseñamos y consolidamos las bases del deporte para el desarrollo óptimo de la actividad y potenciar sus capacidades físicas.",
   },
   {
     heading: "Escuela Avanzada",

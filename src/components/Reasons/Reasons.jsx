@@ -64,7 +64,7 @@ const Reasons = () => {
       <div className="right-r">
         <div className="title">
           <span className="stroke-text">Por </span>
-          <span>que</span>
+          <span>qué</span>
           <span className="stroke-text"> elegirnos?</span>
         </div>
         <div className="details-r">
