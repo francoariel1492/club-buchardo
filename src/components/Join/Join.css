@@ -1,4 +1,4 @@
-.Join {
+/* .Join {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,9 +30,7 @@
 
 .right-j {
   width: 35%;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: flex-end; */
+
 }
 
 .email-container {
@@ -78,4 +76,4 @@
     padding: 2rem;
     width: 90%;
   }
-}
+} */

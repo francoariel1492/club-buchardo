@@ -1,4 +1,4 @@
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
 }
@@ -27,7 +27,6 @@
 
 @media screen and (max-width: 768px) {
   .header > :nth-child(2) {
-    /* position: fixed; */
     right: 2rem;
     z-index: 99;
   }
@@ -40,4 +39,4 @@
     width: 3.2rem;
     height: 3.2rem;
   }
-}
+} */
