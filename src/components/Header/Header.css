@@ -32,8 +32,11 @@
   }
   .header-menu {
     flex-direction: column;
-    background-color: var(--appColor);
+    background-color: var(--lightBlue);
     padding: 2rem;
+  }
+  .header-menu > li:hover {
+    color: var(--appColor);
   }
   .logo {
     width: 3.2rem;

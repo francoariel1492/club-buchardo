@@ -71,12 +71,9 @@
     text-align: center;
   }
   .App {
-    position: relative;
     mix-blend-mode: normal;
-    background-color: var(--appColor);
-    display: flex;
-    flex-direction: column;
-    gap: 6rem;
-    overflow: hidden;
+  }
+  .blur-logo {
+    z-index: 0;
   }
 }
