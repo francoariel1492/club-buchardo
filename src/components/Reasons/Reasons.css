@@ -1,4 +1,4 @@
-/* .Reasons {
+.Reasons {
   display: flex;
   justify-content: space-around;
   gap: 10rem;
@@ -159,4 +159,4 @@
     width: 2rem;
     height: 2rem;
   }
-} */
+}
