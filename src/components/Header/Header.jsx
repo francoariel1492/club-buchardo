@@ -67,7 +67,7 @@ const Header = () => {
               span={"true"}
               smooth={true}
             >
-              Por que elegirnos
+              Por qué elegirnos
             </Link>
           </li>
           <li>

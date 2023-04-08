@@ -36,8 +36,8 @@ const Join = () => {
           <span>PARA</span>
         </div>
         <div>
-          <span className="stroke-text">MAS</span>
-          <span>INFORMACION</span>
+          <span className="stroke-text">MÁS</span>
+          <span>INFORMACIÓN</span>
         </div>
       </div>
       <div className="right-j">
